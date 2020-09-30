@@ -15,7 +15,7 @@ const VideoComponent: React.FC<VideoProps> = ({
   muted = true,
 }) => {
   return (
-    <video height="3000" autoPlay={autoPlay} loop={loop} muted={muted}>
+    <video autoPlay={autoPlay} loop={loop} muted={muted}>
       <source src={src} type={type} />
     </video>
   );
